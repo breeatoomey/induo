@@ -14,6 +14,12 @@
 		08A7D6872CA4F93A00335E44 /* induoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A7D6862CA4F93A00335E44 /* induoTests.swift */; };
 		08A7D6912CA4F93A00335E44 /* induoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A7D6902CA4F93A00335E44 /* induoUITests.swift */; };
 		08A7D6932CA4F93A00335E44 /* induoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A7D6922CA4F93A00335E44 /* induoUITestsLaunchTests.swift */; };
+		8393062A2CDD935D0077221F /* ProfileSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839306292CDD935D0077221F /* ProfileSetupView.swift */; };
+		83B992332CC71D570092E1DF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B992322CC71D570092E1DF /* HomeView.swift */; };
+		83B992352CC71EF40092E1DF /* ClosetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B992342CC71EF40092E1DF /* ClosetView.swift */; };
+		83B992372CC71F2F0092E1DF /* ClothingPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B992362CC71F2F0092E1DF /* ClothingPopupView.swift */; };
+		83B992392CC720410092E1DF /* UploadClothingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B992382CC720410092E1DF /* UploadClothingView.swift */; };
+		83B9923B2CC720A10092E1DF /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B9923A2CC720A10092E1DF /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		08A7D68C2CA4F93A00335E44 /* induoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = induoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08A7D6902CA4F93A00335E44 /* induoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = induoUITests.swift; sourceTree = "<group>"; };
 		08A7D6922CA4F93A00335E44 /* induoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = induoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		839306292CDD935D0077221F /* ProfileSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSetupView.swift; sourceTree = "<group>"; };
+		83B992322CC71D570092E1DF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		83B992342CC71EF40092E1DF /* ClosetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosetView.swift; sourceTree = "<group>"; };
+		83B992362CC71F2F0092E1DF /* ClothingPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingPopupView.swift; sourceTree = "<group>"; };
+		83B992382CC720410092E1DF /* UploadClothingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadClothingView.swift; sourceTree = "<group>"; };
+		83B9923A2CC720A10092E1DF /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +107,13 @@
 			isa = PBXGroup;
 			children = (
 				08A7D6752CA4F93900335E44 /* induoApp.swift */,
+				83B992322CC71D570092E1DF /* HomeView.swift */,
+				839306292CDD935D0077221F /* ProfileSetupView.swift */,
 				08A7D6772CA4F93900335E44 /* ContentView.swift */,
+				83B992342CC71EF40092E1DF /* ClosetView.swift */,
+				83B992382CC720410092E1DF /* UploadClothingView.swift */,
+				83B9923A2CC720A10092E1DF /* ImagePicker.swift */,
+				83B992362CC71F2F0092E1DF /* ClothingPopupView.swift */,
 				08A7D6792CA4F93A00335E44 /* Assets.xcassets */,
 				08A7D67B2CA4F93A00335E44 /* Preview Content */,
 			);
@@ -257,7 +275,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83B992372CC71F2F0092E1DF /* ClothingPopupView.swift in Sources */,
+				83B992392CC720410092E1DF /* UploadClothingView.swift in Sources */,
+				83B992352CC71EF40092E1DF /* ClosetView.swift in Sources */,
+				83B9923B2CC720A10092E1DF /* ImagePicker.swift in Sources */,
+				83B992332CC71D570092E1DF /* HomeView.swift in Sources */,
 				08A7D6782CA4F93900335E44 /* ContentView.swift in Sources */,
+				8393062A2CDD935D0077221F /* ProfileSetupView.swift in Sources */,
 				08A7D6762CA4F93900335E44 /* induoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +446,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"induo/Preview Content\"";
+				DEVELOPMENT_TEAM = 3ZLPK9NMSW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -429,6 +454,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,6 +476,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"induo/Preview Content\"";
+				DEVELOPMENT_TEAM = 3ZLPK9NMSW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -457,6 +484,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -11,7 +11,7 @@ import SwiftUI
 struct induoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView() // Show the HomeView as the starting view
         }
     }
 }
