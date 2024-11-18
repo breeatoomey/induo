@@ -1,0 +1,35 @@
+
+Essay Feedback
+Homework Assignment #1
+CMSI 4071 Fall 2024
+======================
+
+SUMMARY:
+   Good work on the synopsis, identifying the most salient points of the
+   article, such as 'normal' accidents and the inspectors of the FAA and at
+   ValuJet.
+
+CRITICAL THINKING:
+   Relation to S/W engineering:
+      Good evaluation of the parts of software systems as complex interfaces
+      that are analogous to the system of systems in the airliner.  I like
+      your idea of the 'holistic approach' which carefully considers those
+      interactions.
+
+   Thoughts/opinions presented:
+      Good ideas in this section, such as the fact that human error can have
+      devastating consequences and being proactive about risk management.
+
+OVERALL ASSESSMENT:
+   Category                          Points
+   Summary of article                  25
+   Relation to S/W engineering         25
+   Thoughts/opinions presented         25
+   Spelling/Grammar                    25
+                                     -----
+   Subtotal                           100
+   ------------------------------------------------------
+   Total Percentage:   100 out of 100 which is an A-plus
+
+Very nice work on this assignment ~ keep it up!
+

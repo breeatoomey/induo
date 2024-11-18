@@ -1,0 +1,27 @@
+CMSI 4071 Fall 2024
+Project Proposal Feedback
+Project: induo
+=========================
+Proposal Document [2 points]:
+VERY complete proposal document!  One of the best I've seen for the way
+you give the problem statement as well as your solution.  Having the key
+features in a bullet list cuts down on the text reading for that section
+but don't be afraid of puttong SOME text in ~ having nothing but lists
+like this can make the reader feel like they are not getting the full
+explanation.
+
+Your justification section is great!
+
+Proposal Presentation [3 points]:
+VERY nice poster!  I like the color scheme, quite non-traditional and modern
+and the pictures are great.  The idea is presented clearly and from the user
+perspective.  Nicely done ~ someone has a very good 'eye'....
+
+
+Summary:
+--------
+Total:  5% out of 5% for this deliverable.
+
+Nice job overall on the document.
+
+Keep up the good work!
