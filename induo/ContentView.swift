@@ -10,16 +10,16 @@ struct ContentView: View {
     
     var body: some View {
         ZStack {
-            Color.purple.ignoresSafeArea() // Set background color
+            Color(hex: "#3f13a4").ignoresSafeArea() // Set background color
             
             VStack {
                 // "My Closet" button at the top
                 NavigationLink(destination: ClosetView()) {
-                    Text("My Closet")
+                    Text("To My Closet")
                         .font(.headline)
                         .foregroundColor(.white)
                         .padding()
-                        .background(Color.purple.opacity(0.7))
+                        .background(Color(hex: "#6b35e8").opacity(0.7))
                         .cornerRadius(10)
                         .padding(.top, 20)
                 }
@@ -93,16 +93,14 @@ struct ContentView: View {
                 
                 Spacer()
                 
-                // MATCH button
-                Button(action: {
-                    print("MATCH button tapped")
-                }) {
-                    Text("MATCH")
+                // Liked outfits button
+                NavigationLink(destination: LikedOutfitView()) {
+                    Text("Liked Outfits")
                         .font(.headline)
                         .foregroundColor(.white)
                         .padding()
                         .frame(maxWidth: .infinity)
-                        .background(Color.purple.opacity(0.7))
+                        .background(Color(hex: "#6b35e8").opacity(0.7))
                         .cornerRadius(10)
                         .padding(.horizontal)
                 }

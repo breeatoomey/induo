@@ -14,7 +14,7 @@ struct HomeView: View {
                         .resizable()
                         .scaledToFit()
                         .frame(width: 80, height: 80)
-                        .foregroundColor(.purple)
+                        .foregroundColor(Color(hex: "#6b35e8"))
                         .padding(.top, 60)
 
                     // App name
@@ -25,7 +25,7 @@ struct HomeView: View {
 
                     // Subtitle or tagline
                     Text("Discover your perfect style with the power of AI!")
-                        .font(.system(size: 18))
+                        .font(.system(size: 48))
                         .foregroundColor(.secondary)
                     
                     Spacer()
@@ -37,7 +37,7 @@ struct HomeView: View {
                             .foregroundColor(.white)
                             .padding()
                             .frame(maxWidth: .infinity)
-                            .background(Color.purple)
+                            .background(Color(hex: "#3f13a4").opacity(0.7))
                             .cornerRadius(12)
                             .shadow(color: Color.purple.opacity(0.3), radius: 8, x: 0, y: 4)
                             .padding(.horizontal, 40)
@@ -49,9 +49,9 @@ struct HomeView: View {
                             .foregroundColor(.white)
                             .padding()
                             .frame(maxWidth: .infinity)
-                            .background(Color.blue)
+                            .background(Color(hex: "#6b35e8").opacity(0.7))
                             .cornerRadius(12)
-                            .shadow(color: Color.blue.opacity(0.3), radius: 8, x: 0, y: 4)
+                            .shadow(color: Color(hex: "#6b35e8").opacity(0.3), radius: 8, x: 0, y: 4)
                             .padding(.horizontal, 40)
                                         }
                     .padding(.bottom, 40)

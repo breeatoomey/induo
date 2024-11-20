@@ -19,7 +19,7 @@ struct ProfileSetupView: View {
     let genders = ["Select", "Male", "Female", "Non-binary", "Other"]
     
     @State private var stepIndex = 0 // Track the current question
-    private let backgroundColors = [Color.purple, Color.gray, Color.white] // Rotating background colors
+    private let backgroundColors = [Color(hex: "#3f13a4"), Color(hex: "#595959"), Color(hex: "#6b35e8")] // Rotating background colors
     
     @StateObject private var locationManager = LocationManager() // For fetching location
 
@@ -34,22 +34,26 @@ struct ProfileSetupView: View {
                         .font(.title)
                         .fontWeight(.bold)
                         .padding(.bottom, 10)
+                        .foregroundColor(.white)
                     
                     // Display each question based on stepIndex
                     if stepIndex == 0 {
                         Text("What's your name?")
                             .font(.headline)
+                            .foregroundColor(.white)
                         TextField("Enter your name", text: $name)
                             .textFieldStyle(RoundedBorderTextFieldStyle())
                     } else if stepIndex == 1 {
                         Text("How old are you?")
                             .font(.headline)
+                            .foregroundColor(.white)
                         TextField("Enter your age", text: $age)
                             .keyboardType(.numberPad)
                             .textFieldStyle(RoundedBorderTextFieldStyle())
                     } else if stepIndex == 2 {
                         Text("Gender")
                             .font(.headline)
+                            .foregroundColor(.white)
                         Picker("Select your gender", selection: $gender) {
                             ForEach(genders, id: \.self) {
                                 Text($0)
@@ -63,6 +67,7 @@ struct ProfileSetupView: View {
                      else if stepIndex == 3 {
                         Text("Describe your style")
                             .font(.headline)
+                            .foregroundColor(.white)
                         TextEditor(text: $styleDescription)
                             .frame(height: 150)
                             .padding()
