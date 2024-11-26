@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct induoApp: App {
+    @UIApplicationDelegateAdaptor(induoAppDelegate.self) var delegate
+
     var body: some Scene {
         WindowGroup {
-            HomeView() // Show the HomeView as the starting view
+            EntryView()
+                .environmentObject(InduoAuth())
+                .environmentObject(InduoClothingImage())
         }
     }
 }

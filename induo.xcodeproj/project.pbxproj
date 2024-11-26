@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		080A51762CED6FE900EEF898 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 080A51752CED6FE900EEF898 /* GoogleService-Info.plist */; };
+		080A51782CED702A00EEF898 /* InduoAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080A51772CED702A00EEF898 /* InduoAuth.swift */; };
+		080A517B2CED74E000EEF898 /* induoAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080A517A2CED74E000EEF898 /* induoAppDelegate.swift */; };
+		080A518C2CED9C1000EEF898 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 080A518B2CED9C1000EEF898 /* Podfile */; };
+		080A518E2CEDB4A600EEF898 /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080A518D2CEDB4A600EEF898 /* AuthenticationViewController.swift */; };
+		080A51942CEDBEAD00EEF898 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080A51932CEDBEAD00EEF898 /* AuthenticationView.swift */; };
+		085DF7172CEEAB9E0069452A /* EntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085DF7162CEEAB9E0069452A /* EntryView.swift */; };
+		085DF71D2CEEB2EE0069452A /* ClothingImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085DF71C2CEEB2EE0069452A /* ClothingImage.swift */; };
+		085DF71F2CEEB3460069452A /* InduoClothingImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085DF71E2CEEB3460069452A /* InduoClothingImage.swift */; };
 		08A7D6762CA4F93900335E44 /* induoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A7D6752CA4F93900335E44 /* induoApp.swift */; };
 		08A7D6782CA4F93900335E44 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A7D6772CA4F93900335E44 /* ContentView.swift */; };
 		08A7D67A2CA4F93A00335E44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08A7D6792CA4F93A00335E44 /* Assets.xcassets */; };
@@ -20,6 +29,8 @@
 		83B992372CC71F2F0092E1DF /* ClothingPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B992362CC71F2F0092E1DF /* ClothingPopupView.swift */; };
 		83B992392CC720410092E1DF /* UploadClothingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B992382CC720410092E1DF /* UploadClothingView.swift */; };
 		83B9923B2CC720A10092E1DF /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B9923A2CC720A10092E1DF /* ImagePicker.swift */; };
+		C2CDC2D6E7FD5FB663E8207B /* Pods_induoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C446F4A54F91E30194CFE8EA /* Pods_induoTests.framework */; };
+		D1A3D098C69B123B57AAC462 /* Pods_induo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9518F57B347961B7D50C4524 /* Pods_induo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +51,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		053D69AF14FAEF42A5342D1C /* Pods-induoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-induoTests.release.xcconfig"; path = "Target Support Files/Pods-induoTests/Pods-induoTests.release.xcconfig"; sourceTree = "<group>"; };
+		080A51752CED6FE900EEF898 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Desktop/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		080A51772CED702A00EEF898 /* InduoAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InduoAuth.swift; sourceTree = "<group>"; };
+		080A51792CED706C00EEF898 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		080A517A2CED74E000EEF898 /* induoAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = induoAppDelegate.swift; sourceTree = "<group>"; };
+		080A518B2CED9C1000EEF898 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		080A518D2CEDB4A600EEF898 /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
+		080A51932CEDBEAD00EEF898 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		085DF70B2CEDC2200069452A /* FirebaseDatabase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseDatabase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		085DF70F2CEDC2400069452A /* FirebaseFirestore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseFirestore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		085DF7162CEEAB9E0069452A /* EntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryView.swift; sourceTree = "<group>"; };
+		085DF71C2CEEB2EE0069452A /* ClothingImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingImage.swift; sourceTree = "<group>"; };
+		085DF71E2CEEB3460069452A /* InduoClothingImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InduoClothingImage.swift; sourceTree = "<group>"; };
 		08A7D6722CA4F93900335E44 /* induo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = induo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08A7D6752CA4F93900335E44 /* induoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = induoApp.swift; sourceTree = "<group>"; };
 		08A7D6772CA4F93900335E44 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,12 +74,17 @@
 		08A7D68C2CA4F93A00335E44 /* induoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = induoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08A7D6902CA4F93A00335E44 /* induoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = induoUITests.swift; sourceTree = "<group>"; };
 		08A7D6922CA4F93A00335E44 /* induoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = induoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4E25C22AA8A18900352691EA /* Pods-induoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-induoTests.debug.xcconfig"; path = "Target Support Files/Pods-induoTests/Pods-induoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7A181616EF4C24D5233DF8F0 /* Pods-induo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-induo.debug.xcconfig"; path = "Target Support Files/Pods-induo/Pods-induo.debug.xcconfig"; sourceTree = "<group>"; };
 		839306292CDD935D0077221F /* ProfileSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSetupView.swift; sourceTree = "<group>"; };
 		83B992322CC71D570092E1DF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		83B992342CC71EF40092E1DF /* ClosetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosetView.swift; sourceTree = "<group>"; };
 		83B992362CC71F2F0092E1DF /* ClothingPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClothingPopupView.swift; sourceTree = "<group>"; };
 		83B992382CC720410092E1DF /* UploadClothingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadClothingView.swift; sourceTree = "<group>"; };
 		83B9923A2CC720A10092E1DF /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		9518F57B347961B7D50C4524 /* Pods_induo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_induo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C446F4A54F91E30194CFE8EA /* Pods_induoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_induoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E16128A8E12CFBBB0B371CEC /* Pods-induo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-induo.release.xcconfig"; path = "Target Support Files/Pods-induo/Pods-induo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1A3D098C69B123B57AAC462 /* Pods_induo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2CDC2D6E7FD5FB663E8207B /* Pods_induoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +114,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		080A51662CED6D9300EEF898 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				080A51772CED702A00EEF898 /* InduoAuth.swift */,
+				085DF71E2CEEB3460069452A /* InduoClothingImage.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		085DF7192CEEB1FD0069452A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				085DF71C2CEEB2EE0069452A /* ClothingImage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		08A7D6692CA4F93900335E44 = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +138,8 @@
 				08A7D6852CA4F93A00335E44 /* induoTests */,
 				08A7D68F2CA4F93A00335E44 /* induoUITests */,
 				08A7D6732CA4F93900335E44 /* Products */,
+				E1FF768024BB0A1F8D5285AC /* Pods */,
+				1E40BFBCA11B53C1B2E8ADF9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,7 +156,14 @@
 		08A7D6742CA4F93900335E44 /* induo */ = {
 			isa = PBXGroup;
 			children = (
+				080A51792CED706C00EEF898 /* Info.plist */,
+				080A51752CED6FE900EEF898 /* GoogleService-Info.plist */,
+				085DF7192CEEB1FD0069452A /* Model */,
+				080A51662CED6D9300EEF898 /* Service */,
 				08A7D6752CA4F93900335E44 /* induoApp.swift */,
+				080A517A2CED74E000EEF898 /* induoAppDelegate.swift */,
+				080A518D2CEDB4A600EEF898 /* AuthenticationViewController.swift */,
+				085DF7162CEEAB9E0069452A /* EntryView.swift */,
 				83B992322CC71D570092E1DF /* HomeView.swift */,
 				839306292CDD935D0077221F /* ProfileSetupView.swift */,
 				08A7D6772CA4F93900335E44 /* ContentView.swift */,
@@ -114,8 +171,10 @@
 				83B992382CC720410092E1DF /* UploadClothingView.swift */,
 				83B9923A2CC720A10092E1DF /* ImagePicker.swift */,
 				83B992362CC71F2F0092E1DF /* ClothingPopupView.swift */,
+				080A51932CEDBEAD00EEF898 /* AuthenticationView.swift */,
 				08A7D6792CA4F93A00335E44 /* Assets.xcassets */,
 				08A7D67B2CA4F93A00335E44 /* Preview Content */,
+				080A518B2CED9C1000EEF898 /* Podfile */,
 			);
 			path = induo;
 			sourceTree = "<group>";
@@ -145,6 +204,29 @@
 			path = induoUITests;
 			sourceTree = "<group>";
 		};
+		1E40BFBCA11B53C1B2E8ADF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				085DF70F2CEDC2400069452A /* FirebaseFirestore.framework */,
+				085DF70B2CEDC2200069452A /* FirebaseDatabase.framework */,
+				9518F57B347961B7D50C4524 /* Pods_induo.framework */,
+				C446F4A54F91E30194CFE8EA /* Pods_induoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1FF768024BB0A1F8D5285AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A181616EF4C24D5233DF8F0 /* Pods-induo.debug.xcconfig */,
+				E16128A8E12CFBBB0B371CEC /* Pods-induo.release.xcconfig */,
+				4E25C22AA8A18900352691EA /* Pods-induoTests.debug.xcconfig */,
+				053D69AF14FAEF42A5342D1C /* Pods-induoTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = induo/Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,9 +234,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 08A7D6962CA4F93A00335E44 /* Build configuration list for PBXNativeTarget "induo" */;
 			buildPhases = (
+				E18AB5B7C87219A501936D9F /* [CP] Check Pods Manifest.lock */,
 				08A7D66E2CA4F93900335E44 /* Sources */,
 				08A7D66F2CA4F93900335E44 /* Frameworks */,
 				08A7D6702CA4F93900335E44 /* Resources */,
+				2F04CFDDAC6945D4F4AC1DE5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -169,9 +253,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 08A7D6992CA4F93A00335E44 /* Build configuration list for PBXNativeTarget "induoTests" */;
 			buildPhases = (
+				4C7603F6A08313DD8B2541E7 /* [CP] Check Pods Manifest.lock */,
 				08A7D67E2CA4F93A00335E44 /* Sources */,
 				08A7D67F2CA4F93A00335E44 /* Frameworks */,
 				08A7D6802CA4F93A00335E44 /* Resources */,
+				59D9FC810C7A9FF7414A422F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -179,6 +265,8 @@
 				08A7D6842CA4F93A00335E44 /* PBXTargetDependency */,
 			);
 			name = induoTests;
+			packageProductDependencies = (
+			);
 			productName = induoTests;
 			productReference = 08A7D6822CA4F93A00335E44 /* induoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -233,6 +321,9 @@
 				Base,
 			);
 			mainGroup = 08A7D6692CA4F93900335E44;
+			packageReferences = (
+				080A517E2CED992E00EEF898 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 08A7D6732CA4F93900335E44 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -251,6 +342,8 @@
 			files = (
 				08A7D67D2CA4F93A00335E44 /* Preview Assets.xcassets in Resources */,
 				08A7D67A2CA4F93A00335E44 /* Assets.xcassets in Resources */,
+				080A518C2CED9C1000EEF898 /* Podfile in Resources */,
+				080A51762CED6FE900EEF898 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,19 +363,107 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2F04CFDDAC6945D4F4AC1DE5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-induo/Pods-induo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-induo/Pods-induo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-induo/Pods-induo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C7603F6A08313DD8B2541E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-induoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59D9FC810C7A9FF7414A422F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-induoTests/Pods-induoTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-induoTests/Pods-induoTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-induoTests/Pods-induoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E18AB5B7C87219A501936D9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-induo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		08A7D66E2CA4F93900335E44 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				83B992372CC71F2F0092E1DF /* ClothingPopupView.swift in Sources */,
+				085DF71F2CEEB3460069452A /* InduoClothingImage.swift in Sources */,
+				085DF7172CEEAB9E0069452A /* EntryView.swift in Sources */,
+				080A51782CED702A00EEF898 /* InduoAuth.swift in Sources */,
+				080A51942CEDBEAD00EEF898 /* AuthenticationView.swift in Sources */,
+				080A517B2CED74E000EEF898 /* induoAppDelegate.swift in Sources */,
 				83B992392CC720410092E1DF /* UploadClothingView.swift in Sources */,
 				83B992352CC71EF40092E1DF /* ClosetView.swift in Sources */,
 				83B9923B2CC720A10092E1DF /* ImagePicker.swift in Sources */,
+				080A518E2CEDB4A600EEF898 /* AuthenticationViewController.swift in Sources */,
 				83B992332CC71D570092E1DF /* HomeView.swift in Sources */,
 				08A7D6782CA4F93900335E44 /* ContentView.swift in Sources */,
 				8393062A2CDD935D0077221F /* ProfileSetupView.swift in Sources */,
 				08A7D6762CA4F93900335E44 /* induoApp.swift in Sources */,
+				085DF71D2CEEB2EE0069452A /* ClothingImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,15 +621,18 @@
 		};
 		08A7D6972CA4F93A00335E44 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A181616EF4C24D5233DF8F0 /* Pods-induo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"induo/Preview Content\"";
-				DEVELOPMENT_TEAM = 3ZLPK9NMSW;
+				DEVELOPMENT_TEAM = P38P56W228;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = induo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -460,7 +644,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = lmu.induo;
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lmu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -470,15 +655,18 @@
 		};
 		08A7D6982CA4F93A00335E44 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E16128A8E12CFBBB0B371CEC /* Pods-induo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"induo/Preview Content\"";
-				DEVELOPMENT_TEAM = 3ZLPK9NMSW;
+				DEVELOPMENT_TEAM = P38P56W228;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = induo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -490,7 +678,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = lmu.induo;
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lmu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -500,11 +689,13 @@
 		};
 		08A7D69A2CA4F93A00335E44 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E25C22AA8A18900352691EA /* Pods-induoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MARKETING_VERSION = 1.0;
@@ -519,11 +710,13 @@
 		};
 		08A7D69B2CA4F93A00335E44 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 053D69AF14FAEF42A5342D1C /* Pods-induoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MARKETING_VERSION = 1.0;
@@ -610,6 +803,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		080A517E2CED992E00EEF898 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 08A7D66A2CA4F93900335E44 /* Project object */;
 }

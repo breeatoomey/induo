@@ -1,3 +1,4 @@
+
 import SwiftUI
 import PhotosUI
 import Vision
@@ -5,6 +6,8 @@ import CoreImage
 import CoreImage.CIFilterBuiltins
 
 struct UploadClothingView: View {
+    @EnvironmentObject var clothingImageService: InduoClothingImage
+    
     @Binding var isShowingUploadView: Bool
     @State private var selectedImage: UIImage? = nil
     @State private var stickerImage: UIImage? = nil
@@ -21,6 +24,9 @@ struct UploadClothingView: View {
                     .scaledToFit()
                     .frame(width: 200, height: 200)
                     .cornerRadius(10)
+                Button("Upload Image") {
+                    saveStickerImage()
+                }
             } else {
                 Text("No Image Selected")
                     .foregroundColor(.gray)
@@ -150,6 +156,8 @@ struct UploadClothingView: View {
     private func saveToDatabase(imageUUID: String) {
         // Database saving logic here; for example:
         print("Saved image UUID: \(imageUUID) as \(clothingType) in database")
+        
+        clothingImageService.uploadImage(userId: "12345", id: imageUUID, clothingType: "Shirt")
     }
     
     // Get documents directory path

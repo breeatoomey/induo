@@ -1,0 +1,11 @@
+platform :ios, '15.0' # Adjust the iOS version as needed
+
+target 'induo' do
+    use_frameworks!
+
+    pod 'Firebase/Core'
+    pod 'Firebase/Auth'
+    pod 'FirebaseUI/Auth'
+    pod 'FirebaseUI/Google'
+
+end

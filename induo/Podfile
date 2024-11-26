@@ -1,0 +1,17 @@
+platform :ios, '15.0' # Adjust the iOS version as needed
+
+project '../induo.xcodeproj'
+target 'induo' do
+    use_frameworks!
+
+    pod 'FirebaseUI'
+    pod 'Firebase'
+
+end
+    
+target 'induoTests' do
+    use_frameworks!
+    
+    pod 'Firebase'
+
+end
