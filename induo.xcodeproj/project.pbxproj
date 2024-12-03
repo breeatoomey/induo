@@ -52,6 +52,7 @@
 		08A7D68C2CA4F93A00335E44 /* induoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = induoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08A7D6902CA4F93A00335E44 /* induoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = induoUITests.swift; sourceTree = "<group>"; };
 		08A7D6922CA4F93A00335E44 /* induoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = induoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		832D41C12CFFAA4500BAE613 /* VirtualTryOn */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = VirtualTryOn; sourceTree = "<group>"; };
 		832E3A1D2CEEB093007FA5C8 /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
 		832E3A1F2CEEBCFA007FA5C8 /* LikedOutfitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedOutfitView.swift; sourceTree = "<group>"; };
 		839306292CDD935D0077221F /* ProfileSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSetupView.swift; sourceTree = "<group>"; };
@@ -110,6 +111,7 @@
 		08A7D6742CA4F93900335E44 /* induo */ = {
 			isa = PBXGroup;
 			children = (
+				832D41C12CFFAA4500BAE613 /* VirtualTryOn */,
 				832E3A1F2CEEBCFA007FA5C8 /* LikedOutfitView.swift */,
 				08A7D6752CA4F93900335E44 /* induoApp.swift */,
 				832E3A1D2CEEB093007FA5C8 /* Color+Ext.swift */,
